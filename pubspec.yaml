@@ -1,7 +1,8 @@
 name: floating_navigation_bar
 description: A beautiful highly customizable floating navigation bar
 version: 0.0.1
-homepage:
+author: Kevin Tailor<kevin7aylor@gmail.com>
+homepage: https://github.com/tailoristic/floating_navigation_bar.git
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
