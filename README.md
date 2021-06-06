@@ -1,9 +1,6 @@
-# ✨ Flutter Floating Bottom Navigation Bar
+# ✨ Flutter Floating Navigation Bar
 
-
-Fully customizable floating bottom navigation package for flutter.
-
-## 🎮 How To Use
+## 🎮 EXAMPLE
 
 ```dart
       Scaffold(
@@ -40,7 +37,8 @@ Fully customizable floating bottom navigation package for flutter.
 ```
 
 <!-- 
-<img width="450" height="900" src="https://github.com/right7ctrl/flutter_floating_bottom_navigation_bar/blob/master/image.png?raw=true"> -->
+<img width="450" height="900" src="https://github.com/tailoristic/floating_navigation_bar/blob/master/example/images/floating_navigation_bar.jpg?raw=true"> -->
+
 
 ## ⭐️ License
 
