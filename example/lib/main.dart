@@ -1,3 +1,4 @@
+import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:floating_navigation_bar/floating_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -58,27 +59,28 @@ class _DemoScreenState extends State<DemoScreen> {
       ),
       body: pageList[currentIndex],
       bottomNavigationBar: FloatingNavigationBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.black87,
+        iconColor: Colors.white,
         textStyle: TextStyle(
-          color: Colors.black,
+          color: Colors.white,
           fontSize: 14.0,
         ),
-        iconSize: 18.0,
-        navBarItems: [
+        iconSize: 20.0,
+        items: [
           NavBarItems(
-            icon: Icons.home,
+            icon: EvaIcons.homeOutline,
             title: "Home",
           ),
           NavBarItems(
-            icon: Icons.category,
-            title: "Feed",
+            icon: EvaIcons.search,
+            title: "Search",
           ),
           NavBarItems(
-            icon: Icons.shopping_cart,
+            icon: EvaIcons.shoppingCartOutline,
             title: "Cart",
           ),
           NavBarItems(
-            icon: Icons.person,
+            icon: EvaIcons.activity,
             title: "Profile",
           ),
         ],
