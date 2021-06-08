@@ -1,6 +1,13 @@
-# ✨ Flutter Floating Navigation Bar
+#  Flutter Floating Navigation Bar
 
-## 🎮 EXAMPLE
+
+<img width="450" height="900" src="https://github.com/tailoristic/floating_navigation_bar/blob/master/example/images/fnb_crop.jpg?raw=true">
+<br/>
+:blue_heart:
+## ✨
+<img width="450" height="900" src="https://github.com/tailoristic/floating_navigation_bar/blob/master/example/images/floating_navigation_bar.jpg?raw=true">
+
+## ✨ EXAMPLE
 
 ```dart
       Scaffold(
@@ -36,8 +43,6 @@
 
 ```
 
-<!-- 
-<img width="450" height="900" src="https://github.com/tailoristic/floating_navigation_bar/blob/master/example/images/floating_navigation_bar.jpg?raw=true"> -->
 
 
 ## ⭐️ License

@@ -60,12 +60,17 @@ class _DemoScreenState extends State<DemoScreen> {
       body: pageList[currentIndex],
       bottomNavigationBar: FloatingNavigationBar(
         backgroundColor: Colors.black87,
+        barHeight: 80.0,
+        barWidth: MediaQuery.of(context).size.width - 40.0,
         iconColor: Colors.white,
         textStyle: TextStyle(
           color: Colors.white,
           fontSize: 14.0,
         ),
         iconSize: 20.0,
+        indicatorColor: Colors.white,
+        indicatorHeight: 5,
+        indicatorWidth: 14.0,
         items: [
           NavBarItems(
             icon: EvaIcons.homeOutline,
