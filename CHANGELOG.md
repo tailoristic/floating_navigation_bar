@@ -7,3 +7,10 @@
 
 ## 0.0.3
 * Added Indicator for active tab.
+
+## 0.0.4
+* Added more information in docs
+
+
+## 0.0.5
+* Added more information in docs

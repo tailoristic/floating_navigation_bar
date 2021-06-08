@@ -1,7 +1,5 @@
 #  Flutter Floating Navigation Bar
 
-<br/>
-
 :blue_heart:
 <img width="450" height="900" src="https://github.com/tailoristic/floating_navigation_bar/blob/master/example/images/floating_navigation_bar.jpg?raw=true">
 
