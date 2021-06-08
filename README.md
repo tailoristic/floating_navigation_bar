@@ -1,10 +1,10 @@
 #  Flutter Floating Navigation Bar
 
 
-<img width="450" height="900" src="https://github.com/tailoristic/floating_navigation_bar/blob/master/example/images/fnb_crop.jpg?raw=true">
+<img width="800" height="400" src="https://github.com/tailoristic/floating_navigation_bar/blob/master/example/images/fnb_crop.jpg?raw=true">
 <br/>
 :blue_heart:
-## ✨
+
 <img width="450" height="900" src="https://github.com/tailoristic/floating_navigation_bar/blob/master/example/images/floating_navigation_bar.jpg?raw=true">
 
 ## ✨ EXAMPLE
