@@ -1,11 +1,12 @@
 #  Flutter Floating Navigation Bar
 
-
-<img width="800" height="400" src="https://github.com/tailoristic/floating_navigation_bar/blob/master/example/images/fnb_crop.jpg?raw=true">
+<br/>
+<img width="450" height="900" src="https://github.com/tailoristic/floating_navigation_bar/blob/master/example/images/floating_navigation_bar.jpg?raw=true">
 <br/>
 :blue_heart:
+<br/>
+<img width="600" height="250" src="https://github.com/tailoristic/floating_navigation_bar/blob/master/example/images/fnb_crop.jpg?raw=true">
 
-<img width="450" height="900" src="https://github.com/tailoristic/floating_navigation_bar/blob/master/example/images/floating_navigation_bar.jpg?raw=true">
 
 ## ✨ EXAMPLE
 
@@ -42,8 +43,11 @@
     );
 
 ```
+Willing to contribute?
+Go ahead and send pull request :grin:
 
-
+Found bug or issues?:disappointed:
+Open and issue on Github repo
 
 ## ⭐️ License
 
