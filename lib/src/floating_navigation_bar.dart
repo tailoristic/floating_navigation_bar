@@ -29,28 +29,31 @@ class FloatingNavigationBar extends StatelessWidget {
   /// * For Changing indicator color
   /// * ... height
   /// * ... width
+  /// * ... width of item
   final Color indicatorColor;
   final double indicatorHeight;
   final double indicatorWidth;
+  final double itemWidth;
 
   /// ! THIS WILL IDENTITFY WHICH TAB IS CURRENTLY ACTIVE
   /// ! USING THIS TO SHOW AND HIDE TAB INDICATOR
   static ValueNotifier<int> notifyIndex = ValueNotifier<int>(0);
 
-  const FloatingNavigationBar({
-    Key? key,
-    required this.items,
-    required this.onChanged,
-    this.barHeight = 80.0,
-    this.barWidth = 400.0,
-    this.iconColor,
-    this.iconSize,
-    this.textStyle,
-    this.backgroundColor,
-    this.indicatorColor = Colors.black,
-    this.indicatorHeight = 5.0,
-    this.indicatorWidth = 8.0,
-  })  : assert(
+  const FloatingNavigationBar(
+      {Key? key,
+      required this.items,
+      required this.onChanged,
+      this.barHeight = 80.0,
+      this.barWidth = 400.0,
+      this.iconColor,
+      this.iconSize,
+      this.textStyle,
+      this.backgroundColor,
+      this.indicatorColor = Colors.black,
+      this.indicatorHeight = 5.0,
+      this.indicatorWidth = 8.0,
+      this.itemWidth = 90})
+      : assert(
           (items.length < 5),
           "NavBarItems can't contain more than 4 itmes",
         ),
@@ -85,7 +88,7 @@ class FloatingNavigationBar extends StatelessWidget {
           (i) => GestureDetector(
             onTap: () => onPressed(i),
             child: Container(
-              width: 90.0,
+              width: itemWidth,
               color: Colors.transparent,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
